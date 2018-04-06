@@ -1,20 +1,14 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/login">Login Page</router-link>
-    <router-link to="/signup">Signup</router-link>
+    <h2>Üye Ol</h2>
+    <input v-model="message" placeholder="Kullanıcı adı">
+    <input v-model="message" placeholder="Şifre">
+    <button name="btn-login">Giriş</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
 }
 </script>
 

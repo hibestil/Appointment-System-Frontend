@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/login">Login Page</router-link>
-    <router-link to="/signup">Signup</router-link>
+    <h2>Login Page</h2>
+    <input v-model="message" placeholder="Kullanıcı adı">
+    <input v-model="message" placeholder="Şifre">
+    <button name="btn-login">Giriş</button>
   </div>
 </template>
 
