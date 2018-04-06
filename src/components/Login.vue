@@ -1,10 +1,20 @@
 <template>
-  <div class="hello">
-    <h2>Login Page</h2>
-    <input v-model="message" placeholder="Kullanıcı adı">
-    <input v-model="message" placeholder="Şifre">
-    <button name="btn-login">Giriş</button>
-  </div>
+
+  <el-form >
+      <el-input
+      placeholder="E-mail"
+      v-model="input10"
+      type="email"
+      clearable>
+    </el-input>
+    <el-input
+      placeholder="Şifre"
+      v-model="input10"
+      type="password"
+      clearable>
+    </el-input>
+    <el-button type="success" icon="el-icon-check">Giriş</el-button>
+  </el-form>
 </template>
 
 <script>

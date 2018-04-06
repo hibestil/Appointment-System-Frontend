@@ -1,20 +1,16 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/login">Login Page</router-link>
-    <router-link to="/signup">Signup</router-link>
+    <el-alert
+      title="Mesaj"
+      type="success">
+      Hoşgeldiniz
+    </el-alert>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
+  name: 'HelloWorld'
 }
 </script>
 
