@@ -1,12 +1,15 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Element from 'element-ui'
+
 import HelloWorld from '@/components/HelloWorld'
 import Layout from '@/components/Layout'
 import Login from '@/components/Login'
 import Signup from '@/components/Signup'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 // Use element for templating
-Vue.use(Element)
+Vue.use(BootstrapVue)
 Vue.use(Router)
 
 export default new Router({

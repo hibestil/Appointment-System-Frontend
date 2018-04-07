@@ -8,7 +8,7 @@
     </el-input>
     <el-input
       placeholder="Şifre"
-      v-model="input10"
+      v-model="input11"
       type="password"
       clearable>
     </el-input>
