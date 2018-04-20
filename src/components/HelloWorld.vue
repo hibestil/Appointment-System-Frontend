@@ -1,11 +1,7 @@
 <template>
-  <div class="hello">
-    <el-alert
-      title="Mesaj"
-      type="success">
-      Hoşgeldiniz
-    </el-alert>
-  </div>
+<div>
+  <b-alert show>Default Alert</b-alert>
+</div>  
 </template>
 
 <script>
