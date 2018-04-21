@@ -39,7 +39,7 @@ export default {
          username  : this.form.email,
          password : this.form.password
       }
-
+    
       HTTP.post(`user/login`,credentials)
         .then(response => {
           window.localStorage.setItem('token',response.data.token)
